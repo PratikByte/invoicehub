@@ -1,0 +1,43 @@
+# Visual Studio / Rider / IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# NuGet
+*.nupkg
+packages/
+# Include this if using PackageReference to ignore local cache
+# .nuget/packages/
+
+# Visual Studio cache files
+*.cache
+*.dbmdl
+
+# ASP.NET / Web
+wwwroot/
+appsettings.Development.json
+
+# Logs
+*.log
+logs/
+
+# Secrets
+*.pfx
+*.key
+*.pem
+secrets.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider / JetBrains IDE
+.idea/
+
