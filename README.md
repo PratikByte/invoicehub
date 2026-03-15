@@ -5,7 +5,15 @@ A backend REST API built with **ASP.NET Core (.NET 8)** implementing the **CQRS 
 This project demonstrates a clean backend architecture using **CQRS, Repository Pattern, Entity Framework Core, and MediatR**.
 
 ---
+## 🌐 Live API
 
+🚀 **Live Swagger Documentation**
+
+https://invoicehub-amy3.onrender.com/swagger/index.html
+
+
+You can directly test the API endpoints from the deployed Swagger UI.
+---
 ## 🚀 Tech Stack
 
 * ASP.NET Core (.NET 8)
@@ -15,7 +23,17 @@ This project demonstrates a clean backend architecture using **CQRS, Repository 
 * MediatR
 * CQRS Pattern
 * Swagger (OpenAPI)
+* Docker
+* Render Deployment
 
+---
+## ☁ Deployment
+
+The API is deployed using cloud services and containerization:
+
+- **Render** – Hosts the ASP.NET Core API
+- **Railway** – Provides the MySQL database
+- **Docker** – Used for containerizing the application
 ---
 
 ## 📌 Features
@@ -64,13 +82,13 @@ Mapping            → Entity ↔ DTO Mapping
 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/your-username/Invoice-Management-System-API.git
+git clone https://github.com/PratikByte/invoicehub.git
 ```
 
 2️⃣ Navigate to the project folder
 
 ```
-cd Invoice-Management-System-API
+cd invoicehub
 ```
 
 3️⃣ Update the connection string in:
